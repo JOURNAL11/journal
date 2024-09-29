@@ -1,15 +1,16 @@
 /* General styles */
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Oswald';
     line-height: 1.6;
     margin: 0;
     padding: 0;
     background-color: #f0f8ff; /* Alice Blue */
-    color: #333333; /* Dark Gray */
+    color: #333333; /* Dark Gray font color */
+    font-size: large;
 }
 
 header {
-    background-color: #2C3E50; /* Dark Blue */
+    background-color: #797d62; /* Dark Blue */
     color: #ffffff;
     padding: 15px 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -25,7 +26,7 @@ header nav {
 
 header h1 {
     font-size: 2rem;
-    color: #4CAF50; /* Primary Green */
+    color: #ffffff 
 }
 
 header ul {
@@ -47,7 +48,7 @@ header ul li a {
 }
 
 header ul li a:hover {
-    color: #FF9800; /* Secondary Orange */
+    color: #686763; /* Secondary Orange */
 }
 
 main {
@@ -62,8 +63,8 @@ main {
 .hero {
     text-align: center;
     margin: 40px 0;
-    background: linear-gradient(135deg, #4CAF50, #81C784);
-    color: #ffffff;
+    background: linear-gradient(135deg, #ccd5ae, #e7c8a0);
+    color: #fff1e6;
     padding: 60px 20px;
     border-radius: 8px;
 }
@@ -82,8 +83,8 @@ main {
 }
 
 .latest-blogs h2 {
-    color: #4CAF50; /* Primary Green */
-    border-bottom: 2px solid #FF9800; /* Secondary Orange */
+    color: #5c6b73; /* Primary Green */
+    border-bottom: 2px solid #253237; /* Secondary Orange */
     display: inline-block;
     padding-bottom: 5px;
     margin-bottom: 20px;
@@ -96,7 +97,7 @@ article {
 }
 
 article h3 {
-    color: #FF9800; /* Secondary Orange */
+    color: #253237; /* Secondary Orange */
     transition: color 0.3s ease;
 }
 
@@ -106,7 +107,7 @@ article h3 a {
 }
 
 article h3 a:hover {
-    color: #FF5722; /* Deep Orange */
+    color: #253237; /* Deep Orange */
 }
 
 .post-image {
@@ -124,9 +125,10 @@ article h3 a:hover {
 footer {
     text-align: center;
     padding: 15px 0;
-    background-color: #2C3E50; /* Dark Blue */
+    background-color: #797d62; /* Dark Blue */
     color: #ffffff;
-    margin-top: 40px;
+    margin-top: 600px;
+
 }
 
 footer p {
@@ -184,7 +186,7 @@ footer p {
 }
 
 video {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
     margin: 20px 0;
     border-radius: 8px;
@@ -192,7 +194,7 @@ video {
 
 /* Buttons */
 button {
-    background-color: #4CAF50; /* Primary Green */
+    background-color: #ffcb69; /* Primary Green */
     color: #ffffff;
     border: none;
     padding: 10px 20px;
